@@ -1,10 +1,16 @@
 <template>
-
+  <div class="container todos">
+    <CreateTodoComponent/>
+    <TodosListComponent/>
+  </div>
 </template>
 
 <script>
+import CreateTodoComponent from '@/components/CreateTodoComponent'
+import TodosListComponent from '@/components/TodosListComponent'
 export default {
-  name: "TodosComponent"
+  name: 'TodosComponent',
+  components: { CreateTodoComponent, TodosListComponent }
 }
 </script>
 

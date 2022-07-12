@@ -1,0 +1,7 @@
+textarea, select, input {
+  &:focus {
+    box-shadow: none !important;
+    border-color: $themeColor !important;
+  }
+}
+

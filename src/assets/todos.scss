@@ -1,0 +1,43 @@
+.todos {
+  .form-container {
+    border: 1px solid $themeColor;
+    border-radius: 3px;
+    padding: 25px 15px;
+  }
+  .todo-item {
+    margin: 15px 0px;
+    padding: 15px;
+    border: 1px solid $themeColor;
+    border-radius: 3px;
+    text-align: left;
+
+    .subject {
+      display: flex;
+      font-weight: bold;
+      padding: 5px 0;
+
+      .title {
+        width: 50%;
+      }
+      .actions {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+      }
+    }
+    .tags {
+      display: flex;
+      font-weight: normal;
+      padding: 5px 0;
+      .tag-item {
+        border-radius: 3px;
+        text-align: center;
+        min-width: 100px;
+        width: auto;
+        background: $tagColor;
+        border: 1px solid $tagColor;
+        margin-right: 5px;
+      }
+    }
+  }
+}

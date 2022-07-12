@@ -1,0 +1,10 @@
+.btn-outline-theme {
+  border-color: $themeColor;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $themeColor;
+    color: white;
+  }
+}
+
